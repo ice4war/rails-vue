@@ -1,24 +1,10 @@
-# README
+# Rails with Vue JS frontend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Quickstart template
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```sh
+git clone https://github.com/ice4war/rails-vue ./project
+cd project
+yarn build
+bundle exec rails server
+```
