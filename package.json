@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "esbuild-plugin-vue3": "^0.4.2"
+  },
+  "scripts": {
+    "build": "node esbuild.config.js"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/turbo-rails": "^8.0.12",
+    "vue": "^3.5.13",
+    "vue-loader": "^17.4.2"
+  }
+}
